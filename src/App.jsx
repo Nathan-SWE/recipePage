@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Ingredients from "./components/Ingredients/Ingredients";
 import Instructions from "./components/Instructions/Instructions";
@@ -16,13 +17,7 @@ function App() {
         <Instructions />
         <Nutrition />
       </main>
-      <footer>
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor
-        </a>
-        . Coded by <a href="#">Nathan</a>.
-      </footer>
+      <Footer />
     </>
   );
 }
