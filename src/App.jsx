@@ -1,18 +1,12 @@
 import Header from "./components/Header/Header";
+import Recipe from "./components/Recipe/Recipe";
 
 function App() {
   return (
     <>
       <Header />
+      <Recipe />
       <main>
-        <section>
-          <h1>Simple Omelette Recipe</h1>
-          <p>
-            An easy and quick dish, perfect for any meal. This classic omelette
-            combines beaten eggs cooked to perfection, optionally filled with
-            your choice of cheese, vegetables, or meats.
-          </p>
-        </section>
         <section>
           <h2>Preparation time</h2>
           <p>
