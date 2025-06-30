@@ -1,19 +1,15 @@
 import Header from "./components/Header/Header";
+import Preparation from "./components/Preparation/Preparation";
 import Recipe from "./components/Recipe/Recipe";
 
 function App() {
   return (
     <>
       <Header />
-      <Recipe />
       <main>
-        <section>
-          <h2>Preparation time</h2>
-          <p>
-            Total: Approximately 10 minutes Preparation: 5 minutes Cooking: 5
-            minutes
-          </p>
-        </section>
+        <Recipe />
+        <Preparation />
+
         <section>
           <h2>Ingredients</h2>
           <p>
