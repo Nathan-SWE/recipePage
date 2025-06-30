@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import Ingredients from "./components/Ingredients/Ingredients";
 import Preparation from "./components/Preparation/Preparation";
 import Recipe from "./components/Recipe/Recipe";
 
@@ -9,15 +10,8 @@ function App() {
       <main>
         <Recipe />
         <Preparation />
+        <Ingredients />
 
-        <section>
-          <h2>Ingredients</h2>
-          <p>
-            2-3 large eggs Salt, to taste Pepper, to taste 1 tablespoon of
-            butter or oil Optional fillings: cheese, diced vegetables, cooked
-            meats, herbs
-          </p>
-        </section>
         <section>
           <h2>Instructions</h2>
           <p>
