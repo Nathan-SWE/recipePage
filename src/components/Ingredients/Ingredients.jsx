@@ -1,6 +1,6 @@
 export default function Ingredients() {
   return (
-    <section>
+    <section className="bottom-line">
       <h2>Ingredients</h2>
       <ul>
         <li>2-3 large eggs </li>
