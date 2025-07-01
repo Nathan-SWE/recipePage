@@ -1,6 +1,8 @@
+import "./Nutrition.css";
+
 export default function Nutrition() {
   return (
-    <section>
+    <section className="nutrition">
       <h2>Nutrition</h2>
       <p>
         The table below shows nutritional values per serving without the
