@@ -1,0 +1,16 @@
+footer {
+  margin-top: 1rem;
+  padding: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--rown800);
+  font-weight: bold;
+}
+
+footer span {
+  display: block;
+}
