@@ -10,7 +10,7 @@ The main focus was to practice development using React, applying core concepts s
 
 ## Access the project by clicking on the image
 
-[![Project Preview](./images/preview.jpg)](https://#/)
+[![Project Preview](./images/preview.jpg)](https://recipe-page-ashen-psi.vercel.app/)
 
 ## Tools and technologies
 
