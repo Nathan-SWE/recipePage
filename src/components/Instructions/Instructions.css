@@ -1,0 +1,14 @@
+.instructions ol {
+  list-style: decimal outside;
+}
+
+.instructions ol li {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.instructions li::marker {
+  color: var(--rown800);
+  font-weight: bold;
+}

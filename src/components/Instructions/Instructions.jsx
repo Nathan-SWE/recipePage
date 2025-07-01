@@ -1,6 +1,8 @@
+import "./Instructions.css";
+
 export default function Instructions() {
   return (
-    <section>
+    <section className="instructions bottom-line">
       <h2>Instructions</h2>
       <ol>
         <li>
