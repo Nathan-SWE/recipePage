@@ -13,7 +13,7 @@
   font-size: 1.4rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .preparation {
     width: 100%;
   }

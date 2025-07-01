@@ -6,11 +6,10 @@ main {
   background-color: var(--White);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   main {
-    padding: 0 1rem;
     width: 90vw;
-    max-width: 1024px;
+    max-width: 64rem;
     padding: 2rem;
     margin: 8vh auto;
     border-radius: 16px;

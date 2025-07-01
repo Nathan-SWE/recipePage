@@ -1,5 +1,5 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .recipe p {
-    width: 650px;
+    width: 40.62rem;
   }
 }

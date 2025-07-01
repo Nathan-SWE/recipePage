@@ -2,9 +2,9 @@ header {
   content: url(../../..//images/image-omelette.webp);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   header {
-    max-width: 1024px;
+    max-width: 64rem;
     border-radius: 16px;
   }
 }
