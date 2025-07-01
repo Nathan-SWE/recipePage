@@ -1,0 +1,12 @@
+.preparation {
+  background-color: var(--Rose50);
+  padding: 1rem;
+  border-radius: 16px;
+}
+
+.preparation h2 {
+  color: var(--ose800);
+  font-family: var(--Outfit);
+  font-weight: bold;
+  font-size: 1.4rem;
+}

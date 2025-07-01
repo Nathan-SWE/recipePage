@@ -1,6 +1,8 @@
+import "./Preparation.css";
+
 export default function Preparation() {
   return (
-    <section>
+    <section className="preparation">
       <h2>Preparation time</h2>
       <ul>
         <li>
