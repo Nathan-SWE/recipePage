@@ -1,12 +1,10 @@
 header {
   content: url(../../..//images/image-omelette.webp);
-  max-width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
   header {
-    margin: 0 auto;
+    max-width: 1024px;
     border-radius: 16px;
-    margin-top: 2rem;
   }
 }

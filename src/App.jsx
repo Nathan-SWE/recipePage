@@ -9,17 +9,15 @@ import "./css/app.css";
 
 function App() {
   return (
-    <>
+    <main>
       <Header />
-      <main>
-        <Recipe />
-        <Preparation />
-        <Ingredients />
-        <Instructions />
-        <Nutrition />
-      </main>
+      <Recipe />
+      <Preparation />
+      <Ingredients />
+      <Instructions />
+      <Nutrition />
       <Footer />
-    </>
+    </main>
   );
 }
 

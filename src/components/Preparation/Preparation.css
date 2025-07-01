@@ -2,6 +2,8 @@
   background-color: var(--Rose50);
   padding: 1rem;
   border-radius: 16px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .preparation h2 {
@@ -9,4 +11,10 @@
   font-family: var(--Outfit);
   font-weight: bold;
   font-size: 1.4rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .preparation {
+    width: 100%;
+  }
 }

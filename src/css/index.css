@@ -25,6 +25,7 @@ body {
   font-family: var(--Outfit);
   color: var(--Stone600);
   margin: 0 auto;
+  background-color: var(--Stone100);
 }
 
 h1 {
@@ -32,7 +33,7 @@ h1 {
   color: var(--Stone900);
   font-size: 2.2rem;
   font-weight: 400;
-  padding: 2rem 0 1rem 0;
+  padding-bottom: 1rem;
   line-height: 1;
 }
 
@@ -51,4 +52,10 @@ ul {
 .bottom-line {
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--Stone150);
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile-padding {
+    padding: 0 1rem;
+  }
 }

@@ -2,7 +2,7 @@ import "./Instructions.css";
 
 export default function Instructions() {
   return (
-    <section className="instructions bottom-line">
+    <section className="instructions bottom-line mobile-padding">
       <h2>Instructions</h2>
       <ol>
         <li>

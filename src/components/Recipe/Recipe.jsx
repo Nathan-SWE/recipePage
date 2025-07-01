@@ -2,7 +2,7 @@ import "./Recipe.css";
 
 export default function Recipe() {
   return (
-    <section className="recipe">
+    <section className="recipe mobile-padding">
       <h1>Simple Omelette Recipe</h1>
       <p>
         An easy and quick dish, perfect for any meal. This classic omelette
