@@ -1,5 +1,6 @@
 .instructions ol {
   list-style: decimal outside;
+  max-width: 800px;
 }
 
 .instructions ol li {

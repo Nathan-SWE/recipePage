@@ -17,3 +17,9 @@
   font-weight: bold;
   color: var(--rown800);
 }
+
+@media screen and (min-width: 1024px) {
+  .nutrition td:last-child {
+    width: 60%;
+  }
+}
