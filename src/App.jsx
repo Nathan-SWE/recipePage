@@ -5,6 +5,7 @@ import Instructions from "./components/Instructions/Instructions";
 import Nutrition from "./components/Nutrition/Nutrition";
 import Preparation from "./components/Preparation/Preparation";
 import Recipe from "./components/Recipe/Recipe";
+import "./css/app.css";
 
 function App() {
   return (
