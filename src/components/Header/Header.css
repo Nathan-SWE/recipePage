@@ -1,10 +1,29 @@
-header {
-  content: url(../../..//images/image-omelette.webp);
+header img {
+  user-select: none;
+  display: block;
+}
+
+.img-container {
+  width: 100%;
+  aspect-ratio: 1312 / 600;
+  background-color: var(--Stone150);
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.img-container img.loaded {
+  opacity: 1;
 }
 
 @media screen and (min-width: 64rem) {
-  header {
-    max-width: 64rem;
+  header img,
+  .img-container {
     border-radius: 16px;
   }
 }
